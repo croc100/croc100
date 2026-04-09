@@ -1,14 +1,1 @@
-# Hi there, I'm 100 (croc100) 👋
-
-> **Deterministic Infrastructure Engineer | System Architect**
-
-### 🛠 Tech Stack
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-
-### 📊 GitHub Stats
-![100's GitHub stats](https://github-readme-stats.vercel.app/api?username=croc100&show_icons=true&theme=dark)
-
-![Metrics](https://metrics.lecoq.io/croc100?template=classic&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&config.timezone=Asia%2FSeoul)
-
-![Summary Cards](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=croc100&theme=dark)
+![Metrics](https://metrics.lecoq.io/croc100?template=classic&isocalendar=1&lines=1&habits=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=full-year&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&lines.delay=0&habits=false&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FSeoul)
