@@ -1,1 +1,19 @@
-![Metrics](https://metrics.lecoq.io/croc100?template=classic&isocalendar=1&lines=1&habits=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=full-year&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&lines.delay=0&habits=false&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FSeoul)
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}] # 매일 자정에 갱신
+  workflow_dispatch: # 수동 실행 가능
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: croc100
+          template: classic
+          base: header, activity, community, repositories, metadata
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_achievements: yes
